@@ -543,9 +543,11 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-close:hover,
-.icon-close:focus {
-  fill: #ffffff;
+.button-close:hover > .icon-close {
+  fill: #FFFFFF;
+}
+.button-close:focus > .icon-close {
+  fill: #FFFFFF;
 }
 
 .form-tittle {
@@ -585,6 +587,21 @@ p {
   border-color: #4D5AE5;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
+
+.input-privacy:checked + .user-privacy > .chekbox-span {
+  background-color: #404bbf;
+  fill: #F4F4FD;
+  border: none;
+  }
+
+.form-input:focus {
+  border-color: #4D5AE5;
+}
+
+.form-input:focus + .input-svg-icon {
+  fill: #4D5AE5;
+}
+
 
 .input-svg-icon {
   position: absolute;
