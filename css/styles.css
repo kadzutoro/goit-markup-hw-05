@@ -658,6 +658,10 @@ p {
   fill: transparent;
 }
 
+.privacy-icon {
+  fill: transparent;
+}
+
 .privacy-link {
   color:#4d5ae5;
   text-decoration:underline
