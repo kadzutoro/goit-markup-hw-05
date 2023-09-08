@@ -662,6 +662,15 @@ p {
   fill: transparent;
 }
 
+.input-privacy:checked + .user-privacy
+.chekbox-span,
+.input-privacy:checked + .user-privacy
+.privacy-icon {
+  background-color: #404bbf;
+  fill: #F4F4FD;
+  border: none;
+}
+
 .privacy-link {
   color:#4d5ae5;
   text-decoration:underline
